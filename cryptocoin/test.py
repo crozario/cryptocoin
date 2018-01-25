@@ -1,3 +1,4 @@
-import cryptocoin as cc
+import cryptocoin as cc 
 
-cc.print_coin_list()
+price = cc.get_coin_price("BTC")
+print(price)
