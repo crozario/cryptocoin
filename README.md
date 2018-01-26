@@ -5,16 +5,19 @@ Cryptocurrency data provided by [CryptoCompare API](https://www.cryptocompare.co
 
 
 
-#Documentation
+# Documentation
 
 
-##Functions
+## Functions
 
-```get_coin_list()
+
+```python
+get_coin_list()
 print_coin_list()
 is_coin_in_list(name)
 get_coin_price(coin_name="BTC", rate="USD")
-get_full_coin_prices(coin_name="BTC", rate="USD")```
+get_full_coin_prices(coin_name="BTC", rate="USD")
+```
 
 
 
