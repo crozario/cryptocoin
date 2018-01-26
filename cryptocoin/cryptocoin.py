@@ -1,7 +1,6 @@
 import json
 from urllib.request import urlopen
 
-
 def get_coin_list():
 	coin_list = {}
 	base_list_url = "https://www.cryptocompare.com/api/data/coinlist/"
@@ -134,7 +133,6 @@ def get_full_coin_prices(coin_name="BTC", rate="USD"):
 
 	else:
 		return None
-
 
 
 

@@ -5,11 +5,9 @@ Cryptocurrency data provided by [CryptoCompare API](https://www.cryptocompare.co
 
 
 
-# Documentation
+## Documentation
 
-
-## Functions
-
+### Functions
 
 ```python
 get_coin_list()
