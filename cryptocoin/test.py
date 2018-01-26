@@ -1,4 +1,9 @@
 import cryptocoin as cc 
 
-price = cc.get_coin_price("BTC")
-print(price)
+
+
+print(cc.get_full_coin_prices(['btc', 'eth'], ['usd','cad']))
+
+
+
+
